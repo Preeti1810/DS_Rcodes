@@ -13,3 +13,13 @@ range(Q7$Points,na.rm = TRUE)
 range(Q7$Score,na.rm = TRUE)
 range(Q7$Weigh,na.rm = TRUE)
 
+#skewness and kurtosis
+install.packages("propagate")
+library(propagate)
+
+skewness(Q7$Points)
+skewness(Q7$Score)
+skewness(Q7$Weigh)
+kurtosis(Q7$Points)
+kurtosis(Q7$Score)
+kurtosis(Q7$Weigh)
