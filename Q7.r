@@ -1,3 +1,4 @@
+#measuring central tendencies and plots
 Q7 = read.csv('C:/Users/preet/OneDrive/Desktop/ExcelR/Data Science/Assignment/Basic stats 1/Q7.csv',header = TRUE, sep=",")
 Q7
 
