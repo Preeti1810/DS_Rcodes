@@ -14,6 +14,19 @@ summary(Q7$Score)
 
 summary(Q7$Weigh)
 
+#creating a function
+
+getmode <- function(data){
+  unique_value <-unique(data)
+  unique_value[which.max(tabulate(match(data,unique_value)))]
+}
+data = Q7$Points
+mode1 = getmode(data);mode1
+data = Q7$Score
+mode2 = getmode(data);mode2
+data = Q7$Weigh
+mode3 =getmode(data);mode3
+
 #plots
 
 plot(Q7$Points)
